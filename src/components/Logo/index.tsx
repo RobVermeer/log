@@ -8,7 +8,9 @@ export function Logo() {
       className="text-white text-xl leading-none flex items-center"
       scroll={false}
     >
-      <Newspaper size="20" strokeWidth="2" className="text-indigo-400 mr-1" />{" "}
+      <span className="bg-indigo-400 rounded-full p-2 mr-2">
+        <Newspaper size="16" strokeWidth="2" />
+      </span>{" "}
       Log
     </Link>
   )
